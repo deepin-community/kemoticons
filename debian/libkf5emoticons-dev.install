@@ -1,0 +1,5 @@
+usr/include/KF5/KEmoticons/
+usr/include/KF5/kemoticons_version.h
+usr/lib/*/cmake/KF5Emoticons/
+usr/lib/*/libKF5Emoticons.so
+usr/lib/*/qt5/mkspecs/modules/qt_KEmoticons.pri

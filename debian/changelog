@@ -1,0 +1,766 @@
+kemoticons (5.86.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.86.0).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 13 Sep 2021 10:54:24 +0900
+
+kemoticons (5.85.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 28 Aug 2021 23:42:46 +0900
+
+kemoticons (5.85.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.85.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 00:02:54 +0900
+
+kemoticons (5.83.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 11:53:03 +0900
+
+kemoticons (5.83.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.83.0).
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 13 Jun 2021 09:18:11 +0900
+
+kemoticons (5.82.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.82.0).
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 08 May 2021 21:11:05 +0900
+
+kemoticons (5.81.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.81.0)
+  * Bump inter-frameworks dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 12 Apr 2021 10:18:18 +0900
+
+kemoticons (5.80.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.80.0)
+  * Bump inter-frameworks dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 15 Mar 2021 15:10:33 +0900
+
+kemoticons (5.79.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Remove graphviz from build depends.
+  * New upstream release (5.79.0).
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 16 Feb 2021 06:45:27 +0900
+
+kemoticons (5.78.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 17 Jan 2021 21:03:00 +0900
+
+kemoticons (5.78.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.78.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 13 Jan 2021 10:32:41 +0900
+
+kemoticons (5.77.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Drop the 'testsuite' autopkgtest, as it does not test the installed
+    packages.
+  * Drop the unused debian/meta/ stuff.
+  * Drop breaks/replaces for versions older than Stretch.
+  * Pass -DBUILD_TESTING=OFF to cmake to disable the build of tests, as they
+    are not run at build time anyway.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 17 Jan 2021 09:39:01 +0100
+
+kemoticons (5.77.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 10:33:34 +0900
+
+kemoticons (5.77.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * New upstream release (5.77.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add myself to Uploaders.
+  * Update maintainer to Debian Qt/KDE Maintainers.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 18 Dec 2020 10:03:53 +0900
+
+kemoticons (5.74.0-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 19 Oct 2020 23:17:04 +0200
+
+kemoticons (5.74.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (5.74.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add renamecategories file to libkf5emoticons-data.
+  * Update Homepage link to point to new invent.kde.org
+  * Update repository related entries to metadata file.
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Add Bug-* entries to metadata file.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 27 Sep 2020 17:45:59 +0200
+
+kemoticons (5.70.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 13.
+  * New upstream release (5.70.0).
+  * Update build-deps and deps with the info from cmake.
+  * Wrap long lines in changelog entries: 5.21.0-1.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:57:30 +0200
+
+kemoticons (5.69.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 12.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Get rid of debug-symbol-migration package.
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.69.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add Build-Depends-Package to symbols file.
+  * Enable hardening all.
+  * Remove not needed injection of linker flags.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 30 Apr 2020 17:55:31 +0200
+
+kemoticons (5.62.0-1) unstable; urgency=medium
+
+  * Update reprotest args variable
+  * New upstream release (5.62.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Sep 2019 10:13:00 -0700
+
+kemoticons (5.61.0-1) experimental; urgency=medium
+
+  [ Scarlett Moore ]
+  * Build-Depend on qttools5-dev to fix a cross build failure
+    (see #915122 for more info) (Closes: 933196).
+
+  [ Maximiliano Curia ]
+  * Salsa CI automatic initialization by Tuco
+  * New upstream release (5.61.0).
+  * Update build-deps and deps with the info from cmake
+  * Add missing version to maintscript
+  * Ignore reprotest build path variations
+  * Release to experimental
+
+  [ Jonathan Riddell ]
+  * moved qdebug files
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Sep 2019 21:10:29 +0100
+
+kemoticons (5.54.0-1) unstable; urgency=medium
+
+  * New upstream release (5.52.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.53.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.54.0).
+  * Update build-deps and deps with the info from cmake
+  * Update install files
+  * Bump group breaks (5.54)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jan 2019 19:26:47 -0300
+
+kemoticons (5.51.0-1) unstable; urgency=medium
+
+  * New upstream release (5.50.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.50)
+  * New upstream release (5.51.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.51)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Nov 2018 17:16:47 +0100
+
+kemoticons (5.49.0-1) unstable; urgency=medium
+
+  * New upstream release (5.48.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.49.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.49)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Aug 2018 16:18:28 +0200
+
+kemoticons (5.47.0-1) unstable; urgency=medium
+
+  * New upstream release (5.47.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.47)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Jun 2018 12:09:05 +0200
+
+kemoticons (5.46.0-1) unstable; urgency=medium
+
+  * New upstream release (5.46.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Bump group breaks (5.46)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 May 2018 22:14:53 +0200
+
+kemoticons (5.45.0-1) unstable; urgency=medium
+
+  * New upstream release (5.45.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.45)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 May 2018 08:10:24 +0200
+
+kemoticons (5.44.0-1) sid; urgency=medium
+
+  * New upstream release (5.44.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.44)
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 14:40:45 +0100
+
+kemoticons (5.43.0-1) experimental; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.43.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.43)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Feb 2018 11:43:28 +0100
+
+kemoticons (5.42.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 10 Feb 2018 11:28:48 +0100
+
+kemoticons (5.42.0-1) experimental; urgency=medium
+
+  * New upstream release (5.42.0).
+  * Add link options as-needed
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.42)
+  * Bump Standards-Version to 4.1.3.
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 02 Feb 2018 12:05:08 +0100
+
+kemoticons (5.41.0-1) experimental; urgency=medium
+
+  * New upstream release (5.41.0).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Bump group breaks (5.41)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:42:33 -0300
+
+kemoticons (5.41.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Dec 2017 14:45:54 +0000
+
+kemoticons (5.40.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 Nov 2017 12:57:31 +0000
+
+kemoticons (5.39.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 11:41:26 +0000
+
+kemoticons (5.38.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Sep 2017 13:24:36 +0000
+
+kemoticons (5.37.0-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:58:04 +0200
+
+kemoticons (5.37.0-1) experimental; urgency=medium
+
+  * New upstream release (5.37.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.37)
+  * Add a libkf5emoticons-doc package for the qch files
+  * Bump Standards-Version to 4.0.1.
+  * Set section for the doc package
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:43:11 +0200
+
+kemoticons (5.37.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 11 Aug 2017 15:11:59 +0000
+
+kemoticons (5.36.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * watch: Use https uris
+  * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
+
+  [ Raymond Wooninck ]
+  * Add signing key
+  * also include signing-key
+
+  [ Jonathan Riddell ]
+  * try tests without kded and kinit
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:06 +0200
+
+kemoticons (5.36.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:11:28 +0000
+
+kemoticons (5.35.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:36:35 +0000
+
+kemoticons (5.34.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:35:39 +0000
+
+kemoticons (5.33.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 07 Apr 2017 16:22:26 +0000
+
+kemoticons (5.32.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 12 Mar 2017 13:21:33 +0000
+
+kemoticons (5.31.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 13 Feb 2017 14:35:35 +0000
+
+kemoticons (5.30.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 16 Jan 2017 13:40:09 +0000
+
+kemoticons (5.29.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:07:15 +0000
+
+kemoticons (5.28.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:05:08 +0100
+
+kemoticons (5.28.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Nov 2016 09:44:45 +0000
+
+kemoticons (5.27.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:02:50 +0200
+
+kemoticons (5.27.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:30:22 +0000
+
+kemoticons (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+  * Replace dbus-launch with dbus-run-session in tests
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:00:55 +0200
+
+kemoticons (5.26.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:30:21 +0000
+
+kemoticons (5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 09:58:23 +0200
+
+kemoticons (5.25.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 13 Aug 2016 20:15:49 +0000
+
+kemoticons (5.24.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:41:46 +0000
+
+kemoticons (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 18:43:48 +0200
+
+kemoticons (5.23.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:39:33 +0000
+
+kemoticons (5.22.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 17:22:27 +0200
+
+kemoticons (5.22.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:27:40 +0000
+
+kemoticons (5.21.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 May 2016 14:38:02 +0200
+
+kemoticons (5.21.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Apr 2016 09:22:18 +0000
+
+kemoticons (5.20.0-0neon) wily; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:06:00 +0000
+
+kemoticons (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:19 +0100
+
+kemoticons (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:05 +0100
+
+kemoticons (5.16.0-2) unstable; urgency=medium
+
+  * Add libkf5emoticons-bin to libkf5emoticons5.symbols dependency list
+  * Add myself to uploaders
+
+ -- Diane Trout <diane@ghic.org>  Sat, 05 Dec 2015 11:28:07 -0800
+
+kemoticons (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:23 +0100
+
+kemoticons (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:30 +0200
+
+kemoticons (5.15.0-0ubuntu2) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:37 +0100
+
+kemoticons (5.15.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:48:07 +0100
+
+kemoticons (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:17 +0200
+
+kemoticons (5.14.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:16:00 +0100
+
+kemoticons (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 23:38:32 +0200
+
+kemoticons (5.13.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:05:29 +0200
+
+kemoticons (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:43:41 +0200
+
+kemoticons (5.12.0-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+  * Fix merge. Remove unused broken backport.
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:29:40 +0200
+
+kemoticons (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 16:03:48 +0200
+
+kemoticons (5.10.0-0ubuntu1) wily; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:50:37 +0200
+
+kemoticons (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:00 +0200
+
+kemoticons (5.9.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:29:24 +0200
+
+kemoticons (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:45 +0100
+
+kemoticons (5.8.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:39:22 +0100
+
+kemoticons (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:44 +0100
+
+kemoticons (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:34:49 +0100
+
+kemoticons (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Add acc autopkgtests.
+  * Update watch file.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Jan 2015 14:51:41 +0100
+
+kemoticons (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 19:55:47 +0100
+
+kemoticons (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 12:22:48 +0100
+
+kemoticons (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:35:26 +0100
+
+kemoticons (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:32:24 +0100
+
+kemoticons (5.2.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Use pkg-kde-tools version 3 scripts
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:54:09 +0200
+
+kemoticons (5.1.0-0ubuntu1) utopic; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Remove spurious symbols from symbols file.
+
+  [ Scarlett Clark ]
+  * Cleanup copyright-helper cruft from copyright file.
+
+  [ Rohan Garg ]
+  * Make sure we add the XS-Testsuite field to debian/control
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:28:34 +0200
+
+kemoticons (5.0.0-0ubuntu1) utopic; urgency=medium
+
+  * Initial stable upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Remove spurious symbols from symbols file.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 13:38:45 +0200
