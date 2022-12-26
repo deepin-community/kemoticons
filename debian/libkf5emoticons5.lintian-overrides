@@ -1,0 +1,2 @@
+# It is intended to add dependency to libkf5emoticons-bin
+libkf5emoticons5: symbols-declares-dependency-on-other-package libkf5emoticons-bin (libKF5Emoticons.so.5)
